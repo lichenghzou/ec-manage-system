@@ -1,6 +1,7 @@
 package com.qf.ec.common.ex;
 
-import com.qf.lz.common.result.ResponseCode;
+import com.qf.ec.common.result.ResponseCode;
+
 import lombok.Getter;
 
 @Getter
