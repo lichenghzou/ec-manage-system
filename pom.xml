@@ -13,7 +13,7 @@
   </modules>
   <packaging>pom</packaging>
 
-  <name>ec-manage-system Maven Webapp</name>
+  <name>ec-manage-system</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
