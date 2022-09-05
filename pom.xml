@@ -9,7 +9,6 @@
   <version>1.0.0</version>
   <modules>
     <module>web-common</module>
-    <module>content-module</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -132,6 +131,31 @@
       <groupId>com.qf.ec</groupId>
       <artifactId>web-common</artifactId>
       <version>${web-common.version}</version>
+    </dependency>
+    <!--    日志  -->
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.2.11</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.36</version>
+    </dependency>
+    <!--    swagger自动配置测试单元    -->
+    <!-- swagger-ui -->
+    <dependency>
+      <groupId>io.springfox</groupId>
+      <artifactId>springfox-swagger-ui</artifactId>
+      <version>2.6.1</version>
+    </dependency>
+    <!-- swagger -->
+    <dependency>
+      <groupId>io.springfox</groupId>
+      <artifactId>springfox-swagger2</artifactId>
+      <version>2.6.1</version>
     </dependency>
   </dependencies>
 
